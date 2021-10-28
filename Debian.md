@@ -1,1 +1,1 @@
-# Installing Debian 11 in VirtualBox
+# Installing Debian in VirtualBox
