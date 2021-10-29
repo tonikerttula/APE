@@ -10,7 +10,7 @@ Instructions for installing Debian in VirtualBox can be found [here](https://git
 
 |Attack method subjects   	|[Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md) excercise   	|etc.   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|OWASP Top 10:   	| -  	|   	|   	|   	|
+|OWASP Top 10 2021:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 |Broken Access Control   	|   	|   	|   	|   	|
 |Cryptographic Failures   	|   	|   	|   	|   	|
@@ -40,3 +40,5 @@ Instructions for installing Debian in VirtualBox can be found [here](https://git
 |Exfiltration   	|   	|   	|   	|   	|
 |Impact   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
+
+Author Toni Kerttula
