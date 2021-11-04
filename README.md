@@ -6,7 +6,7 @@ This project's goal is to create easy to read and use guide for how to get start
 
 Credit for the project idea goes for [Tero Karvinen](https://terokarvinen.com/).
 
-Instructions for installing Debian in VirtualBox can be found [here](https://github.com/tonikerttula/APE/blob/main/Debian.md).
+Instructions for installing Kali in VirtualBox can be found [here](https://github.com/tonikerttula/APE/blob/main/Kali.md).
 
 |Attack method subjects   	|[Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md) excercise   	|etc.   	|   	|   	|
 |---	|---	|---	|---	|---	|
