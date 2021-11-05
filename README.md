@@ -12,15 +12,15 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |---	|---	|---	|---	|---	|
 |OWASP Top 10 2017:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
-|Injection   	|   	|   	|   	|   	|
-|Broken Authentication   	|   	|   	|   	|   	|
-|Sensitive Data Exposure   	|   	|   	|   	|   	|
-|XML External Entities (XXE)   	|   	|   	|   	|   	|
-|Broken Access Control   	|   	|   	|   	|   	|
+|Injection   	|[A1](https://github.com/tonikerttula/APE/blob/main/A1.md)   	|   	|   	|   	|
+|Broken Authentication   	|[A2](https://github.com/tonikerttula/APE/blob/main/A2.md)   	|   	|   	|   	|
+|Sensitive Data Exposure   	|[A3](https://github.com/tonikerttula/APE/blob/main/A3.md)   	|   	|   	|   	|
+|XML External Entities (XXE)   	|[A4](https://github.com/tonikerttula/APE/blob/main/A4.md)   	|   	|   	|   	|
+|Broken Access Control   	|[A5](https://github.com/tonikerttula/APE/blob/main/A5.md)   	|   	|   	|   	|
 |Security Misconfiguration   	|   	|   	|   	|   	|
-|Cross-site scripting (XSS)   	|   	|   	|   	|   	|
-|Insecure Deserialization   	|   	|   	|   	|   	|
-|Vulnerable Components   	|   	|   	|   	|   	|
+|Cross-site scripting (XSS)   	|[A7](https://github.com/tonikerttula/APE/blob/main/A7.md)   	|   	|   	|   	|
+|Insecure Deserialization   	|[A8](https://github.com/tonikerttula/APE/blob/main/A8.md)   	|   	|   	|   	|
+|Vulnerable Components   	|[A9](https://github.com/tonikerttula/APE/blob/main/A9.md)   	|   	|   	|   	|
 |Insufficent Logging and Monitoring   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 |ATT&CK Subjects:   	| -  	|   	|   	|   	|
