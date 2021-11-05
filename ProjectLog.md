@@ -11,9 +11,9 @@ Owasp top 10 2021 -> 2017
 
 > 30.10.2021 3h
 
-Instructions for installing Kali  (in finnish for now, translation coming)
+Instructions for installing Kali  (in finnish for now, translation coming in few days)
 
-Instructions for installing webgoat (also in finnish atm)
+Instructions for installing webgoat (also in finnish atm, same as above)
 https://tonikerttula.wordpress.com/2021/10/29/penetraatiotestaus-h1/
 
 > 3.11.2021 6h 
@@ -26,3 +26,5 @@ Tested if the WebGoat excercises work
 - more detailed reports to be done, the point of this work was to gain a idea if the excercises are ready to be solved and what extra actions it may take from user to complete them. I made the also the architechture for all the documents ready, so all the work left here is to:
   - write proper page for the excercises
   - test the excercises i wasn't able to complete due to not understanding enough about the subject
+
+I need to choose some provider for excercises for the ATT&CK framework subjects.
