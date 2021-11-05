@@ -23,7 +23,7 @@ https://tonikerttula.wordpress.com/2021/10/29/penetraatiotestaus-h1/
 Tested if the WebGoat excercises work
 - when in need of help, i used this guide as instructions (https://github.com/WebGoat/WebGoat/wiki/(Almost)-Fully-Documented-Solution-(en)#introduction)
 - troubleshooting in progress for some excercises not working 
-- more detailed reports to be done, the point of this work was to gain a idea if the excercises are ready to be solved and what extra actions it may take from user to complete them. I made the also the architechture for all the documents ready, so all the work left here is to:
+- more detailed reports to be done (the reports will also include my opinions about the excercise), the point of this work was to gain a idea if the excercises are ready to be solved and what extra actions it may take from user to complete them. I made the also the architechture for all the documents ready, so all the work left here is to:
   - write proper page for the excercises
   - test the excercises i wasn't able to complete due to not understanding enough about the subject
 
