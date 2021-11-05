@@ -10,18 +10,18 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 
 |Attack method subjects   	|[Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md) excercise   	|etc.   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|OWASP Top 10 2021:   	| -  	|   	|   	|   	|
+|OWASP Top 10 2017:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
-|Broken Access Control   	|   	|   	|   	|   	|
-|Cryptographic Failures   	|   	|   	|   	|   	|
 |Injection   	|   	|   	|   	|   	|
-|Insecure Design   	|   	|   	|   	|   	|
+|Broken Authentication   	|   	|   	|   	|   	|
+|Sensitive Data Exposure   	|   	|   	|   	|   	|
+|XML External Entities (XXE)   	|   	|   	|   	|   	|
+|Broken Access Control   	|   	|   	|   	|   	|
 |Security Misconfiguration   	|   	|   	|   	|   	|
-|Vulnerable and Outdated Components   	|   	|   	|   	|   	|
-|Identification and Authentication Failures   	|   	|   	|   	|   	|
-|Software and Data Integrity Failures   	|   	|   	|   	|   	|
-|Security Logging and Monitoring Failures   	|   	|   	|   	|   	|
-|Server-Side REquest Forgery   	|   	|   	|   	|   	|
+|Cross-site scripting (XSS)   	|   	|   	|   	|   	|
+|Insecure Deserialization   	|   	|   	|   	|   	|
+|Vulnerable Components   	|   	|   	|   	|   	|
+|Insufficent Logging and Monitoring   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 |ATT&CK Subjects:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
