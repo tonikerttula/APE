@@ -8,7 +8,7 @@ Credit for the project idea goes for [Tero Karvinen](https://terokarvinen.com/).
 
 Instructions for installing Kali in VirtualBox can be found [here](https://github.com/tonikerttula/APE/blob/main/Kali.md).
 
-|Attack method subjects   	|[Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md) excercise   	|etc.   	|   	|   	|
+|Attack method subjects   	|[Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md) excercise   	|etc.   	|Custom exercises   	|   	|
 |---	|---	|---	|---	|---	|
 |OWASP Top 10 2017:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
