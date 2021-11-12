@@ -1,3 +1,7 @@
+### Project update 5.11.2021 - 12.11.2021
+Not a lot of time for the project, did guides for installing [Kali](https://github.com/tonikerttula/APE/blob/main/Kali.md) and [Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md), also did some troubleshooting helps for if the installations encounter problems. 
+I have deadlines for creating a demonstrations of a couple of ATT&CK subtechinques for next monday, so I'll create up and report them here. I'll try to create easily aproachable material (I'm also quite a beginner) so they'll be useful for this project also. I'll also have to properly report some WebGoat excercises, so I'll have at minimum A1 (at least intro), A2, A3, and A7 here. 
+
 ### Project update from 29.10.2021 - 5.11.2021
 Horrible week brain power wise, I've been sick from around sunday and sleep hasn't been there.
 
@@ -30,3 +34,4 @@ Tested if the WebGoat excercises work
   - test the excercises I wasn't able to complete due to not understanding enough about the subject
 
 I need to choose some provider for excercises for the ATT&CK framework subjects.
+
