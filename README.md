@@ -25,20 +25,20 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |   	|   	|   	|   	|   	|
 |ATT&CK Subjects:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
-|Reconnaissance   	|   	|   	|   	|   	|
+|Reconnaissance   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Resource Development   	|   	|   	|   	|   	|
 |Initial Access   	|   	|   	|   	|   	|
 |Execution   	|   	|   	|DVWA Command Execution   	|   	|
 |Persistence   	|   	|   	|   	|   	|
 |Privilege Escalation   	|   	|   	|   	|   	|
 |Defence Evasion   	|   	|   	|   	|   	|
-|Credential Access   	|   	|   	|   	|   	|
+|Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Discovery   	|   	|   	|   	|   	|
 |Lateral Movement   	|   	|   	|   	|   	|
 |Collection   	|   	|   	|   	|   	|
 |Command and Control   	|   	|   	|   	|   	|
 |Exfiltration   	|   	|   	|   	|   	|
-|Impact   	|   	|   	|   	|   	|
+|Impact   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |   	|   	|   	|   	|   	|
 
 Author Toni Kerttula
