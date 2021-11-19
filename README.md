@@ -27,10 +27,10 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |   	|   	|   	|   	|   	|
 |Reconnaissance   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Resource Development   	|   	|   	|   	|   	|
-|Initial Access   	|   	|[Funbox](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
+|Initial Access   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
 |Execution   	|   	|[DVWA Command Execution](https://github.com/tonikerttula/APE/blob/main/dvwa.md)    	|   	|   	|
 |Persistence   	|   	|   	|   	|   	|
-|Privilege Escalation   	|   	|[Funbox](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
+|Privilege Escalation   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
 |Defence Evasion   	|   	|   	|   	|   	|
 |Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Discovery   	|   	|   	|   	|   	|
