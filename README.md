@@ -35,9 +35,9 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Discovery   	|   	|   	|   	|   	|
 |Lateral Movement   	|   	|   	|   	|   	|
-|Collection   	|   	|   	|   	|   	|
+|Collection   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Command and Control   	|   	|   	|   	|   	|
-|Exfiltration   	|   	|   	|   	|   	|
+|Exfiltration   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Impact   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |   	|   	|   	|   	|   	|
 
