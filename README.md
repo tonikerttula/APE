@@ -28,7 +28,7 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |Reconnaissance   	|   	|   	|   	|   	|
 |Resource Development   	|   	|   	|   	|   	|
 |Initial Access   	|   	|   	|   	|   	|
-|Execution   	|   	|   	|   	|   	|
+|Execution   	|   	|   	|DVWA Command Execution   	|   	|
 |Persistence   	|   	|   	|   	|   	|
 |Privilege Escalation   	|   	|   	|   	|   	|
 |Defence Evasion   	|   	|   	|   	|   	|
