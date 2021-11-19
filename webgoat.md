@@ -9,7 +9,7 @@ Open your terminal and type in (or copy-paste from here) the following command:
 
 > sudo apt-get -y install openjdk-11-jre ufw
 
-This command installs Java and a firewall. You can enable the firewall by running the following command:
+This command installs Java (JDK 11 is the open-source reference implementation of version 11 of the Java SE Platform.) and a firewall. You can enable the firewall by running the following command:
 
 > sudo ufw enable
 
