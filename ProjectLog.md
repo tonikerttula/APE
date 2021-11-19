@@ -1,3 +1,14 @@
+### Project update 12.11.2021 - 19.11.2021
+Added version numbers for Java, Kali and Webgoat installations for clarity
+
+Completed A1, A2, A3 and A7, reports just in finnish though so translation needed
+
+I did custom excercise for Att&ck tactics Reconnaissaince, Credential Access and Impact. I also did Injection excercise using DVWA. These Excercises use Metasploitable 2. Report  for these are in finnish, so need for translation.
+
+Planned for Initial Access and Credential Escalation, found vulnhub machine for it https://www.vulnhub.com/entry/funbox-1,518/
+
+Planned for Collection and Exfiltration to be included to custom exercise 1
+
 ### Project update 5.11.2021 - 12.11.2021
 Not a lot of time for the project, did guides for installing [Kali](https://github.com/tonikerttula/APE/blob/main/Kali.md) and [Webgoat](https://github.com/tonikerttula/APE/blob/main/webgoat.md), also did some troubleshooting helps for if the installations encounter problems. 
 I have deadlines for creating a demonstrations of a couple of ATT&CK subtechinques for next monday, so I'll create up and report them here. I'll try to create easily aproachable material (I'm also quite a beginner) so they'll be useful for this project also. I'll also have to properly report some WebGoat excercises, so I'll have at minimum A1 (at least intro), A2, A3, and A7 here. 
