@@ -6,5 +6,7 @@ step 1 reconnassaince - active scanning - vulnerability scanning
 
 step 2 credential access - brute force
 
-step 3 impact - account access removal
+(planned between steps) some data collection and exfiltration
+
+final step  impact - account access removal
 
