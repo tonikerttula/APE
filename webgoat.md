@@ -1,4 +1,4 @@
-# Installing Webgoat in Kali
+# Installing Webgoat 8.0.0.M26 in Kali 2021.3
 
 This installation guide is identical to what I did to set up WebGoat in my environment, and it follows excellent guide by Tero Karvinen found [here](https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/). 
 
