@@ -1,4 +1,4 @@
-# Installing Kali Linux in VirtualBox
+# Installing Kali Linux 2021.3 in VirtualBox 6.1.28 for Windows 10
 
 This guide is for Windows 10 users.
 
