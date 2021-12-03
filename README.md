@@ -31,7 +31,7 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |Execution   	|   	|[DVWA Command Execution](https://github.com/tonikerttula/APE/blob/main/dvwa.md)    	|   	|   	|
 |Persistence   	|   	|   	|[Persistence](https://github.com/tonikerttula/APE/blob/main/persistence.md)   	|   	|
 |Privilege Escalation   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
-|Defence Evasion   	|   	|   	|   	|   	|
+|Defence Evasion   	|   	|[Process Hiding](https://github.com/tonikerttula/APE/blob/main/processhiding.md)   	|   	|   	|
 |Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Discovery   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)      	|   	|
 |Lateral Movement   	|   	|   	|[Pivoting](https://github.com/tonikerttula/APE/blob/main/windowspivoting.md)   	|   	|
