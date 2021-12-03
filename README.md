@@ -29,12 +29,12 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |Resource Development   	|   	|   	|   	|   	|
 |Initial Access   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
 |Execution   	|   	|[DVWA Command Execution](https://github.com/tonikerttula/APE/blob/main/dvwa.md)    	|   	|   	|
-|Persistence   	|   	|   	|   	|   	|
+|Persistence   	|   	|   	|[Persistence](https://github.com/tonikerttula/APE/blob/main/persistence.md)   	|   	|
 |Privilege Escalation   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
 |Defence Evasion   	|   	|   	|   	|   	|
 |Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
-|Discovery   	|   	|   	|   	|   	|
-|Lateral Movement   	|   	|   	|   	|   	|
+|Discovery   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)      	|   	|
+|Lateral Movement   	|   	|   	|[Pivoting](https://github.com/tonikerttula/APE/blob/main/windowspivoting.md)   	|   	|
 |Collection   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
 |Command and Control   	|   	|   	|   	|   	|
 |Exfiltration   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
