@@ -1,3 +1,23 @@
+### Project update 19.11.2021 - 3.12.2021
+
+Custom excercise 1: task is to
+1. Discover IP-address for the target machine.
+2. Find vulnerabilities in the Metasploitable machine, which you could use to get access. 
+3. Get in the Machine
+4. Find something interesting (for example /etc/shadow/)
+5. Extract the finding
+6. Remove the original user's access to the machine.
+(owasp 10 security misconfiguration, att&ck reconnaissance, credential access, discovery, collection, exfiltration, impact)
+
+Process hiding excercise for defence evasion, libprocesshider
+
+Lateral movement - network pivoting with metasploit meterpreter
+
+Command and control - proxy - owasp zap
+
+resource development probably something phishing
+
+
 ### Project update 12.11.2021 - 19.11.2021
 Added version numbers for Java, Kali and Webgoat installations for clarity
 
