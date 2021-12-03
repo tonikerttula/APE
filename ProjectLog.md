@@ -11,6 +11,8 @@ Custom excercise 1: task is to
 
 Process hiding excercise for defence evasion, libprocesshider
 
+Persistence - add root user / Backdooring a startup service
+
 Lateral movement - network pivoting with metasploit meterpreter
 
 Command and control - proxy - owasp zap
