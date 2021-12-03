@@ -4,19 +4,21 @@ You'll need to set up Metasploitable 2 for this exercise, you can do so by follo
 
 We can use many different tactics when attacking Metasploitable 2. In this excercise, we are going to use from the Att&ck the following tactics and techniques:
 
-1. Reconnaissance: Active Scanning - Vulnerability Scanning
-2. Credential Access: Brute Force - Credential Stuffing
-3. Collection: Data from Local System
-4. Exfiltration
-5. Impact: Account Access Removal
+1. Discovery: Network Sniffing
+2. Reconnaissance: Active Scanning - Vulnerability Scanning
+3. Credential Access: Brute Force - Credential Stuffing
+4. Collection: Data from Local System
+5. Exfiltration
+6. Impact: Account Access Removal
 
 Start up Kali and Metasploitable in the same network by making sure they are both set to Host-only adapter in the Network tab in the Virtual Box Manager Settings. Your task is to:
 
-1. Find vulnerabilities in the Metasploitable machine, which you could use to get access.
-2. Get in the Machine
-3. Find something interesting (for example /etc/shadow/)
-4. Extract the finding
-5. Remove the original user's access to the machine.
+1. Discover IP-address for the target machine.
+2. Find vulnerabilities in the Metasploitable machine, which you could use to get access. 
+3. Get in the Machine
+4. Find something interesting (for example /etc/shadow/)
+5. Extract the finding
+6. Remove the original user's access to the machine.
 
 Taktiikka: Reconnassaince
 Tekniikka: Active Scanning
