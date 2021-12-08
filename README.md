@@ -6,39 +6,39 @@ This project's goal is to create easy to read and use guide for how to get start
 
 Credit for the project idea goes for [Tero Karvinen](https://terokarvinen.com/).
 
-Instructions for installing Kali in VirtualBox can be found [here](https://github.com/tonikerttula/APE/blob/main/Kali.md).
+Instructions for installing Kali in VirtualBox can be found [here](https://github.com/tonikerttula/APE/blob/main/installs/Kali.md).
 
-|Attack method subjects   	|[Webgoat 8.0.0.M26](https://github.com/tonikerttula/APE/blob/main/webgoat.md) excercise   	|Misc.   	|Custom exercises   	|   	|
+|Attack method subjects   	|[Webgoat 8.0.0.M26](https://github.com/tonikerttula/APE/blob/main/installs/webgoat.md) excercise   	|Misc.   	|Custom exercises   	|   	|
 |---	|---	|---	|---	|---	|
 |OWASP Top 10 2017:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
-|Injection   	|[A1](https://github.com/tonikerttula/APE/blob/main/A1.md)   	|   	|   	|   	|
-|Broken Authentication   	|[A2](https://github.com/tonikerttula/APE/blob/main/A2.md)   	|   	|   	|   	|
-|Sensitive Data Exposure   	|[A3](https://github.com/tonikerttula/APE/blob/main/A3.md)   	|   	|   	|   	|
-|XML External Entities (XXE)   	|[A4](https://github.com/tonikerttula/APE/blob/main/A4.md)   	|   	|   	|   	|
-|Broken Access Control   	|[A5](https://github.com/tonikerttula/APE/blob/main/A5.md)   	|   	|   	|   	|
-|Security Misconfiguration   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
-|Cross-site scripting (XSS)   	|[A7](https://github.com/tonikerttula/APE/blob/main/A7.md)   	|   	|   	|   	|
-|Insecure Deserialization   	|[A8](https://github.com/tonikerttula/APE/blob/main/A8.md)   	|   	|   	|   	|
-|Vulnerable Components   	|[A9](https://github.com/tonikerttula/APE/blob/main/A9.md)   	|   	|   	|   	|
+|Injection   	|[A1](https://github.com/tonikerttula/APE/blob/main/exercises/A1.md)   	|   	|   	|   	|
+|Broken Authentication   	|[A2](https://github.com/tonikerttula/APE/blob/main/exercises/A2.md)   	|   	|   	|   	|
+|Sensitive Data Exposure   	|[A3](https://github.com/tonikerttula/APE/blob/main/exercises/A3.md)   	|   	|   	|   	|
+|XML External Entities (XXE)   	|[A4](https://github.com/tonikerttula/APE/blob/main/exercises/A4.md)   	|   	|   	|   	|
+|Broken Access Control   	|[A5](https://github.com/tonikerttula/APE/blob/main/exercises/A5.md)   	|   	|   	|   	|
+|Security Misconfiguration   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
+|Cross-site scripting (XSS)   	|[A7](https://github.com/tonikerttula/APE/blob/main/exercises/A7.md)   	|   	|   	|   	|
+|Insecure Deserialization   	|[A8](https://github.com/tonikerttula/APE/blob/main/exercises/A8.md)   	|   	|   	|   	|
+|Vulnerable Components   	|[A9](https://github.com/tonikerttula/APE/blob/main/exercises/A9.md)   	|   	|   	|   	|
 |Insufficent Logging and Monitoring   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 |ATT&CK Subjects:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
-|Reconnaissance   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
+|Reconnaissance   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
 |Resource Development   	|   	|   	|   	|   	|
-|Initial Access   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
-|Execution   	|   	|[DVWA Command Execution](https://github.com/tonikerttula/APE/blob/main/dvwa.md)    	|   	|   	|
-|Persistence   	|   	|   	|[Persistence](https://github.com/tonikerttula/APE/blob/main/persistence.md)   	|   	|
-|Privilege Escalation   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/funbox1.md)   	|   	|   	|
-|Defence Evasion   	|   	|[Process Hiding](https://github.com/tonikerttula/APE/blob/main/processhiding.md)   	|   	|   	|
-|Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
-|Discovery   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)      	|   	|
-|Lateral Movement   	|   	|   	|[Pivoting](https://github.com/tonikerttula/APE/blob/main/windowspivoting.md)   	|   	|
-|Collection   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
-|Command and Control   	|   	|[Proxy](https://github.com/tonikerttula/APE/blob/main/proxy.md)   	|   	|   	|
-|Exfiltration   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
-|Impact   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/metasploitable1.md)   	|   	|
+|Initial Access   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/exercises/funbox1.md)   	|   	|   	|
+|Execution   	|   	|[DVWA Command Execution](https://github.com/tonikerttula/APE/blob/main/exercises/dvwa.md)    	|   	|   	|
+|Persistence   	|   	|   	|[Persistence](https://github.com/tonikerttula/APE/blob/main/exercises/persistence.md)   	|   	|
+|Privilege Escalation   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/exercises/funbox1.md)   	|   	|   	|
+|Defence Evasion   	|   	|[Process Hiding](https://github.com/tonikerttula/APE/blob/main/exercises/processhiding.md)   	|   	|   	|
+|Credential Access   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
+|Discovery   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)      	|   	|
+|Lateral Movement   	|   	|   	|   	|   	|
+|Collection   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
+|Command and Control   	|   	|[Proxy](https://github.com/tonikerttula/APE/blob/main/exercises/proxy.md)   	|   	|   	|
+|Exfiltration   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
+|Impact   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
 |   	|   	|   	|   	|   	|
 
 Author Toni Kerttula
