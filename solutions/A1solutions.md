@@ -1,5 +1,7 @@
 # Excercise A1 Solutions
 
+I solved these excercises myself, or used a guide. These solutions work and are the official solutions, they can also be found here: https://github.com/WebGoat/WebGoat/wiki/(Almost)-Fully-Documented-Solution-(en)#a1-injection
+
 ### Intro
 
 2: __SQL query:__ SELECT department FROM employees WHERE first_name='Bob' 
