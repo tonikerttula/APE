@@ -1,6 +1,6 @@
 # Custom Excercise with Metasploitable 2 (editing in progress)
 
-You'll need to set up Metasploitable 2 for this exercise, you can do so by following this [guide](https://github.com/tonikerttula/APE/blob/main/metasploitable2installation.md)
+You'll need to set up Metasploitable 2 for this exercise, you can do so by following this [guide](https://github.com/tonikerttula/APE/blob/main/installs/metasploitable2installation.md)
 
 We can use many different tactics when attacking Metasploitable 2. In this excercise, we are going to use from the Att&ck the following tactics and techniques:
 
