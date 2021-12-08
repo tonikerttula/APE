@@ -1,5 +1,7 @@
 # Installing Kali Linux 2021.3 in VirtualBox 6.1.28 for Windows 10
 
+Kali Linux is a Linux distribution made specifically for penetration testing. It comes with many tools pre-installed and is the preferred tool to do your attacking, at least for me!
+
 This guide is for Windows 10 users.
 
 Start by downloading VirtualBox, if you haven't yet. I downloaded Version 6.1.28 from [here](https://www.virtualbox.org/wiki/Downloads).
