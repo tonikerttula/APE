@@ -1,4 +1,4 @@
-# Custom Excercise with Metasploitable 2 (editing in progress)
+# Custom Excercise with Metasploitable 2
 
 You'll need to set up Metasploitable 2 for this exercise, you can do so by following this [guide](https://github.com/tonikerttula/APE/blob/main/installs/metasploitable2installation.md)
 
