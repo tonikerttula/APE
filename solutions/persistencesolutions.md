@@ -29,7 +29,9 @@ This will copy the the public key into the authorized_keys file.
 Remember to set the right permissions for the file, so you won't get any weird failures in the future.
 
 > chmod 700 /~
+
 > chmod 700 /~/.ssh
+
 > chmod 600 /~/.ssh/authorized_keys
 
 Now you can ssh to the target machine!
