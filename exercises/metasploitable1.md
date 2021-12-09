@@ -4,7 +4,7 @@ You'll need to set up Metasploitable 2 for this exercise, you can do so by follo
 
 #### WARNING! Remember to make sure you only scan and attack machines and IP-addresses that you own, and that are on your own system. Scanning systems over the internet without permission is against the law (double check the correct ip-address when using nmap, or other tools). Make sure you have both Kali and Metasploitable in "Host-only adapter" setting in VirtualBox, you can test this by pinging 8.8.8.8 in Kali, if the network is unreachable, you are not connected to the internet.
 
-We can use many different tactics when attacking Metasploitable 2. In this excercise, we are going to use from the Att&ck the following tactics and techniques:
+We can use many different tactics when attacking Metasploitable 2. In this excercise, we are going to use the following tactics and techniques listed in ATT&CK framework:
 
 1. Discovery: Network Sniffing
 2. Reconnaissance: Active Scanning - Vulnerability Scanning
