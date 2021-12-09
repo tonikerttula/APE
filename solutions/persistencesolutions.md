@@ -19,7 +19,8 @@ It will generate a private key __.ssh/id_rsa__ and a public key __.ssh/id_rsa.pu
 
 Copy the public key to the target machine's __.ssh/authorized_keys__ file, it can be usually found in the home directory. This can be done by
 
-> scp ~/.ssh/id_rsa.pub TARGET_USER@TARGET_IP:/~/.ssh/
+> scp ~/.ssh/id_rsa.pub TARGET_USER@TARGET_IP:/ ~/.ssh/
+(remove the space after Target_ip:/ and before ~)
 
 And now in the target machines, give the command:
 > cat ~/.ssh/id_rsa.pub >> authorized_keys 
