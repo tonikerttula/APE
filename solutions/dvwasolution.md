@@ -7,6 +7,7 @@ On the right bottom corner, you can click and see the source code.
 ![](https://i.gyazo.com/03c6b852bb62991c70074f787e5391fa.png)
 
 From the source code we can see, that there is no check to see if the $target matches an IP-address, and there is no filtering for special characters. So we can enter:
+
 > 127.0.0.1 ; cat /etc/passwd
 
 And list the contents of the /etc/passwd file
