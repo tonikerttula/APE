@@ -1,70 +1,66 @@
 # Exercise 1 Solution
 
-Taktiikka: Reconnassaince
-Tekniikka: Active Scanning
-Alatekniikka: Vulnerability Scanning
+This is the solution I used to complete the exercise.
 
-Tässä tekniikassa skannataan kohdetta potentiaalisten heikkouksien löytämiseksi esimerkiksi avoimista porteista ja vanhoista sovellusversioista, joissa saattaa olla haavoittuvuuksia.
+To find the IP-address of the target Metasploitable machine, we can use nmap scan. By using the __-sV__ variable, we also version scan it to find possible vulnerabilities. By using netmask /24 we can scan the whole 192.168.56.XXX address range, and as we know our own Kali's IP to be 192.168.56.102 (you can find it out by using the command __ip a__) and that the target machine is in the same network, the scan should find the target machine also.
 
-Käytin Metasploitable 2 kohteena, sillä se oli jo valmiiksi asennettuna edellisen H2 läksyn resurssina. Skannasin kohteen käyttämällä sudo nmap -sV 192.168.56.0/24> komentoa, ja sain tietooni avoimet portit sekä portteja käyttävien sovelluksien versiot!
+> sudo nmap -sV 192.168.56.0/24
 
 ![1]
 
 [1]:https://tonikerttula.files.wordpress.com/2021/11/image-67.png
 
-Taktiikka: Credential Access
-Tekniikka: Brute Force
-Alatekniikka: Credential Stuffing
+Well it seems like 192.168.56.101 is our Metasploitable. We can also see all the open ports and services running on the ports here, to possibly find vulnerability that we can use tp get access to the machine.
 
-Kokeillaan nyt päästä sisään metasploitableen credential stuffingilla, eli käytetään valmiita salasana/käyttäjätunnus -yhdistelmiä ja koitetaan jos jokin niistä päästää sisään. Avasin Kalissa msfconsole-komennolla metasploitin ja search brute force komennolla etsin valmiita hyökkäyksiä. Valitettavasti resursseja löytyi 105 kappaletta, joten kokeilin Googlea. Ensimmäinen hakutulos suositteli käyttämään tämän nimistä: scanner ssh auxiliary module: ssh_login. Hain siis search ssh_login.
+Let's try to brute force our way into the machine. Typing __msfconsole__ into the console will open Metasploit, and typing __search brute force__ we can find modules, that can be used to brute force. However, there will be over one hundred results, so with a quick Google search I decided to use a tool called __ssh auxiliary module: ssh login__. So type into the console __search ssh_login__
 
 ![2]
 
 [2]:https://tonikerttula.files.wordpress.com/2021/11/image-61.png
 
-Antamalla komennon info 0 nähdään tuon ensimmäisen moduulin info, jonka sisältä löytyy tieto, että pitäisi luoda USERPASS_FILE, joka sisältää käyttäjänimen ja salasanan välilyönnillä eroteltuna, jota moduuli sitten kokeilee. Luodaan siis tiedosto, jonne lisään jokaisen yllä porttiskannatun sovelluksen käyttäjätunnuksen ja salasanan, jossa molemmat kentät ovat palvelun nimi (tietenkin osa palveluista ei edes anna ottaa shell-yhteyttä, mutta menkööt harjoituksena). Lisäksi lisään user/user ja msfadmin/msfadmin kombinaatiot, sekä muutaman muun nopeasti päähän juolahtavan kombinaation.
+Using the command __info 0__ we can see info about the corresponding module. I can see, that we need to create a USERPASS_FILE, which includes an account username and password, separated by a space. The module will use this file to try to get shell connection to the target. I created a simple textfile, which includes all the services as username and password, also some random combinations that popped in my head in couple of seconds. (Msf is abbreviation for Metasploit Framework)
 
 ![3]
 
 [3]:https://tonikerttula.files.wordpress.com/2021/11/image-62.png
 
-Näitä tiedostoja ei tarvitse kirjoittaa käsin, on olemassa valmiita kirjastoja, jossa on iso osa käytetyimmistä salasanoista, tai voi hankkia käsiinsä joltakin verkkosivulta vuotaneen käyttäjätunnus/salasana -tietokannan.
+You can make these lists by hand, and they might be better suited for specific targets that way, but you can also use ready made list found on the internet. Also Kali has preinstalled some of these lists, their default path is /usr/share/wordlists.
 
-Seuraavaksi annetaan uudestaan search ssh_login -komento.
+Let's get back to the msfconsole, and give the __search ssh_login__ command again.
 
 ![4]
 
 [4]:https://tonikerttula.files.wordpress.com/2021/11/image-61.png?w=682
 
-use 0 -komennolla valitaan moduuli numero 0.
+To choose the module
+> use 0
 
 ![5]
 
 [5]:https://tonikerttula.files.wordpress.com/2021/11/image-63.png
 
-
-set rhost 192.168.56.101 -komennolla asetetaan maaliksi metasploitable 2.
+To set remote host, our target, as Metasploitable 2
+> set rhost 192.168.56.101
 
 ![6]
 
 [6]:https://tonikerttula.files.wordpress.com/2021/11/image-64.png
 
-set userpass_file /home/kali/userpass.txt -komennolla asetetaan käyttäjätunnus/salasana -kirjastoksi juuri luotu tekstitiedosto.
+Set the USERPASS_FILE we made to be used in the brute force process
+> set userpass_file /home/kali/userpass.txt
 
 ![7]
 
 [7]:https://tonikerttula.files.wordpress.com/2021/11/image-65.png
 
-seuraavaksi vain ajetaan komennolla run
+Run the exploit
+> run
 
 ![8]
 
 [8]:https://tonikerttula.files.wordpress.com/2021/11/image-66.png
 
-Kuten näkyy, portin 22 kautta (ssh) saatiin kolme sisäänpääsyä, ja shell yhteyksiä avattiin kolmin kappalein.
-
-Periaatteessa vaihtamalla rhost komennon ip-osoitetta johonkin muuhun kohteeseen, ja käyttämällä mahdollisesti hieman laajempaa, ehkä jopa valmista esim. verkosta löytyvää käyttäjätunnus/salasana -kirjastoa tämän hyökkäyksen voisi toteuttaa muihinkin kohteisiin!
-Muista kuitenkin, että muitten kuin omalla laitteella ja verkossa olevien omistamiesi ulkopuolisesta verkosta eristettyjen koneiden tunkeutumistestaus voi olla laitonta!
+As we can see, we got 3 ssh connections trough the port 22. It also declares the correct credentials, so you can use them later.
 
 Taktiikka: Impact
 Tekniikka: Account Access Removal
