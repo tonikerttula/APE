@@ -28,7 +28,7 @@ Instructions for installing Kali in VirtualBox can be found [here](https://githu
 |ATT&CK Subjects:   	| -  	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 |Reconnaissance   	|   	|   	|[Exercise 1](https://github.com/tonikerttula/APE/blob/main/exercises/metasploitable1.md)   	|   	|
-|Resource Development   	|   	|   	|   	|   	|
+|Resource Development   	|   	|[Phishing](https://github.com/tonikerttula/APE/blob/main/exercises/phishingquiz.md)   	|   	|   	|
 |Initial Access   	|   	|[Funbox 1](https://github.com/tonikerttula/APE/blob/main/exercises/funbox1.md)   	|   	|   	|
 |Execution   	|   	|[DVWA Command Execution](https://github.com/tonikerttula/APE/blob/main/exercises/dvwa.md)    	|   	|   	|
 |Persistence   	|   	|   	|[Persistence](https://github.com/tonikerttula/APE/blob/main/exercises/persistence.md)   	|   	|
