@@ -1,3 +1,12 @@
+### Project update 3.12.2021 - 9.12.2021
+
+- Finished all the writeups
+- added warnings to not break the law
+- reformatted the repository
+- separated exercises from solutions
+- changed couple of exercise details for some exercises I couldn't get to work
+- didn't have time to write up funbox 1 solution, but found a good, working and readable guide to follow
+
 ### Project update 19.11.2021 - 3.12.2021
 
 Custom excercise 1: task is to
