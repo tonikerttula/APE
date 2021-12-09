@@ -1,6 +1,6 @@
 # Installing Webgoat 8.0.0.M26 in Kali 2021.3
 
-WebGoat is a great tool to start learning penetration testing. The excercises have a couple of pages of instructions and descriptions of the different attacking methods, examples and then practice excercises to apply what your have learned!
+WebGoat is a great tool to start learning penetration testing. The exercises have a couple of pages of instructions and descriptions of the different attacking methods, examples and then practice exercises to apply what your have learned!
 
 This installation guide is identical to what I did to set up WebGoat in my environment, and it follows excellent guide by Tero Karvinen found [here](https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/). 
 
@@ -29,7 +29,7 @@ Now try opening the WebGoat, open your browser and type in the following URL (no
 
 ![1]
 
-Congratulations! Now create an account and start doing the excercises!
+Congratulations! Now create an account and start doing the exercises!
 
 If you want to be safe and unplug your Virtual Machine from the internet (which you should always do if you are not sure how the application interacts with your network, if it creates vulnerabilities for your system or it might access something outside of the target) go to your Virtual Box Manager and select Settings for your Virtual Machine, in the Network tab choose Host-only Adapter (or Not Attached). You can test the internet access by trying to connect to any website with your browser.
 
